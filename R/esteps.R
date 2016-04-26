@@ -6,7 +6,8 @@
 #' @param bt The number of teeth on your big gear.
 #' @param st The number of teeth onyour small gear.
 #' @param d The diameter of your hobbed bolt.
-#' @examples esteps(200, 16, 39, 11, 7)
+#' @examples 
+#' esteps(200, 16, 39, 11, 7)
  
 
 esteps <- function(s, m, bt, st, d)

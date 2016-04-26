@@ -3,7 +3,8 @@
 #' @name resteps
 #' @param o The original setting for your E steps.
 #' @param d The diameter of your hobbed bolt.
-#' @examples resteps(82, 30)
+#' @examples 
+#' resteps(82, 30)
  
 resteps <- function(o, d)
 {

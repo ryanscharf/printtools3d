@@ -17,6 +17,6 @@ zsteps(s, m, t)
 Calculate Z steps for leadscrew systems.
 }
 \examples{
-esteps(200, 16, .8)
+zsteps(200, 16, .8)
 }
 

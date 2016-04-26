@@ -4,7 +4,8 @@
 #' @param s The number of steps per revolution of your motor.
 #' @param m Your driver's microstep setting.
 #' @param t The pitch of your lead screw.
-#' @examples esteps(200, 16, .8)
+#' @examples 
+#' zsteps(200, 16, .8)
 
 zsteps <- function(s, m, t)
 {

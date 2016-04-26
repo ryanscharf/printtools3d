@@ -4,12 +4,16 @@
 \alias{xyztogrid}
 \title{printtools3d}
 \arguments{
-\item{data}{The data}
-
 \item{x}{The X values}
 
 \item{y}{The Y values}
 
 \item{z}{The Z values}
+}
+\description{
+Converts XYZ columns to a grid matrix
+}
+\examples{
+xyztogrid()
 }
 

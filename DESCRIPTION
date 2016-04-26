@@ -1,6 +1,6 @@
 Package: printtools3d
 Type: Package
-Title: Calibrate a 3d printer
+Title: Calibration tools for a 3d printer
 Version: 0.1
 Date: 2016-04-22
 Author: Ryan Scharf
@@ -8,4 +8,9 @@ Maintainer: Ryan Scharf <ryan.scharf@gmail.com>
 Description: Several functions for calibrating a cartesian, belt driven 3d printer.
 License: What license is it under?
 RoxygenNote: 5.0.1
-Imports: reshape2
+Imports: reshape2, grDevices,
+    rgl,
+    stats
+Depends: rgl,
+    grDevices
+    

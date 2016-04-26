@@ -1,14 +1,15 @@
 #' @title printtools3d
 #' @name xyztogrid
-#' @param data The data
+#' @description Converts XYZ columns to a grid matrix
 #' @param x The X values
 #' @param y The Y values
 #' @param z The Z values
+#' @import reshape2
+#' @examples 
+#' xyztogrid()
+devtools::use_package("reshape2", "imports")
 
-devtools::use_package("reshape2", "Imports")
-
-xyztogrid <-
-  function(data, x, y, z)
+xyztogrid <- function()
   {
-    m <- reshape2::dcast(data, x~y, value.var = "z")
+    m <<- reshape2::acast(bed, X~Y, value.var = "Z")
 }

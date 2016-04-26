@@ -3,7 +3,8 @@
 #' @name blgcode
 #' @param x The size of your X axis.
 #' @param y The size of your Y axis.
-#' @examples blgcode(150,150)
+#' @examples 
+#' blgcode(150,150)
 
 blgcode <- function(x,y)
 {
