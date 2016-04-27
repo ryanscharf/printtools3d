@@ -1,4 +1,4 @@
-#' @title printtools3d
+#' @title zsteps
 #' @description Calculate Z steps for leadscrew systems.
 #' @name zsteps
 #' @param s The number of steps per revolution of your motor.

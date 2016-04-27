@@ -2,7 +2,7 @@
 % Please edit documentation in R/xysteps.R
 \name{xysteps}
 \alias{xysteps}
-\title{printtools3d}
+\title{xysteps}
 \usage{
 xysteps(s, m, p, t)
 }

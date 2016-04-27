@@ -2,7 +2,7 @@
 % Please edit documentation in R/resteps.R
 \name{resteps}
 \alias{resteps}
-\title{printtools3d}
+\title{resteps}
 \usage{
 resteps(o, d)
 }

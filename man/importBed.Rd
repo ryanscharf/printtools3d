@@ -2,7 +2,7 @@
 % Please edit documentation in R/importBed.R
 \name{importBed}
 \alias{importBed}
-\title{printtools3d}
+\title{importBed}
 \description{
 imports dirtydata.txt bed information from your default directory
 }

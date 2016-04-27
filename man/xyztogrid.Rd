@@ -2,7 +2,7 @@
 % Please edit documentation in R/xyztogrid.R
 \name{xyztogrid}
 \alias{xyztogrid}
-\title{printtools3d}
+\title{xyztogrid}
 \arguments{
 \item{x}{The X values}
 

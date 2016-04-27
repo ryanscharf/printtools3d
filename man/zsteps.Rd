@@ -2,7 +2,7 @@
 % Please edit documentation in R/zsteps.R
 \name{zsteps}
 \alias{zsteps}
-\title{printtools3d}
+\title{zsteps}
 \usage{
 zsteps(s, m, t)
 }

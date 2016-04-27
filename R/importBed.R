@@ -1,4 +1,4 @@
-#' @title printtools3d
+#' @title importBed
 #' @description imports dirtydata.txt bed information from your default directory
 #' @name importBed
 #' @examples
@@ -7,7 +7,8 @@
 devtools::use_package("stats", "imports")
 
 importBed <- function(){
-bed <<- read.csv(file = "dirtydata.txt", header = FALSE, sep=":", colClasses=c("NULL", "NULL", NA, NA, NA))
+bed <<- read.csv(file = "dirtydata.txt", header = FALSE, sep=":",
+  colClasses=c("NULL", "NULL", NA, NA, NA))
 bed <<- bed[!(is.na(bed$V3) | bed$V3==""), ]
 bed <<- bed[!(is.na(bed$V4) | bed$V4==""), ]
 bed <<- bed[!(is.na(bed$V5) | bed$V5==""), ]

@@ -1,4 +1,4 @@
-#' @title printtools3d
+#' @title xyztogrid
 #' @name xyztogrid
 #' @description Converts XYZ columns to a grid matrix
 #' @param x The X values

@@ -5,9 +5,9 @@ Version: 0.2
 Date: 2016-04-22
 Author: Ryan Scharf
 Maintainer: Ryan Scharf <ryan.scharf@gmail.com>
-Description: Several functions for calibrating a cartesian, belt driven 3d printer.
-License: What license is it under?
+License: GPL
 RoxygenNote: 5.0.1
+Description: You can calculate x,y,z,and e steps. You can generate GCODE that you can run to test how flat your print bed is. If you run the gcode, you can save the output as dirtydata.txt and have your data reorganized and graphed. This has only been tested with Octoprint.
 Imports: reshape2, grDevices,
     rgl,
     stats

@@ -1,4 +1,4 @@
-#' @title printtools3d
+#' @title xysteps
 #' @description Calculate proper steps for X and Y axes in steps/mm.
 #' @name xysteps
 #' @param s The number of steps per revolution of your motor.

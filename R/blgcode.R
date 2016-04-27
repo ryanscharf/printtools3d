@@ -1,5 +1,6 @@
-#' @title printtools3d
+#' @title blgcode
 #' @description Generate GCODE that will test the overall flatness of your print bed.
+#' I can't get roxygen to stop doublecommenting this
 #' @name blgcode
 #' @param x The size of your X axis.
 #' @param y The size of your Y axis.

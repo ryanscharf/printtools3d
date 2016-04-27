@@ -1,4 +1,4 @@
-#' @title printtools3d
+#' @title graphBed
 #' @description Generate GCODE that will test the overall flatness of your print bed.
 #' @name blgcode
 #' @examples 

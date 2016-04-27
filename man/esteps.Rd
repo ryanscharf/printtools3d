@@ -2,7 +2,7 @@
 % Please edit documentation in R/esteps.R
 \name{esteps}
 \alias{esteps}
-\title{printtools3d}
+\title{esteps}
 \usage{
 esteps(s, m, bt, st, d)
 }

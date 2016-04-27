@@ -2,7 +2,7 @@
 % Please edit documentation in R/blgcode.R, R/graphBed.R
 \name{blgcode}
 \alias{blgcode}
-\title{printtools3d}
+\title{blgcode}
 \usage{
 blgcode(x, y)
 }
@@ -13,6 +13,7 @@ blgcode(x, y)
 }
 \description{
 Generate GCODE that will test the overall flatness of your print bed.
+I can't get roxygen to stop doublecommenting this
 
 Generate GCODE that will test the overall flatness of your print bed.
 }

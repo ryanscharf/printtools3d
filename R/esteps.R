@@ -1,4 +1,4 @@
-#' @title printtools3d
+#' @title esteps
 #' @description Calculate proper steps for your E motor in steps/mm.
 #' @name esteps
 #' @param s The number of steps per revolution of your motor.
