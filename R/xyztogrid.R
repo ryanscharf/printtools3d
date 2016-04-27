@@ -7,7 +7,8 @@
 #' @import reshape2
 #' @examples 
 #' xyztogrid()
-devtools::use_package("reshape2", "imports")
+#' @export
+#devtools::use_package("reshape2", "imports")
 
 xyztogrid <- function()
   {

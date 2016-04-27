@@ -6,6 +6,7 @@
 #' @param y The size of your Y axis.
 #' @examples 
 #' blgcode(150,150)
+#' @export
 
 blgcode <- function(x,y)
 {

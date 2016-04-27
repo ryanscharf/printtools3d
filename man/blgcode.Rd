@@ -2,9 +2,12 @@
 % Please edit documentation in R/blgcode.R, R/graphBed.R
 \name{blgcode}
 \alias{blgcode}
+\alias{graphBed}
 \title{blgcode}
 \usage{
 blgcode(x, y)
+
+graphBed()
 }
 \arguments{
 \item{x}{The size of your X axis.}

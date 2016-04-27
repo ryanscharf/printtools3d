@@ -8,6 +8,7 @@
 #' @param d The diameter of your hobbed bolt.
 #' @examples 
 #' esteps(200, 16, 39, 11, 7)
+#' @export
  
 
 esteps <- function(s, m, bt, st, d)

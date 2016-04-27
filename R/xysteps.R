@@ -7,6 +7,7 @@
 #' @param t The number of teeth on your pulley.
 #' @examples 
 #' xysteps(200, 16, 2, 20)
+#' @export
 
 xysteps <- function(s, m, p, t)
 {

@@ -3,6 +3,9 @@
 \name{importBed}
 \alias{importBed}
 \title{importBed}
+\usage{
+importBed()
+}
 \description{
 imports dirtydata.txt bed information from your default directory
 }

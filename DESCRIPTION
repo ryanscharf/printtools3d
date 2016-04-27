@@ -7,10 +7,10 @@ Author: Ryan Scharf
 Maintainer: Ryan Scharf <ryan.scharf@gmail.com>
 License: GPL
 RoxygenNote: 5.0.1
-Description: You can calculate x,y,z,and e steps. You can generate GCODE that you can run to test how flat your print bed is. If you run the gcode, you can save the output as dirtydata.txt and have your data reorganized and graphed. This has only been tested with Octoprint.
+Description: You can calculate x,y,z,and e steps. You can generate GCODE that you can run to test how flat your print bed is. If you run the gcode, you can save the output as dirtydata.txt and have your data reorganized and graphed. This has only been tested with Octoprint. I supplied a demo dirtydata.txt soo that you can use importBed(), xyztogrid(), and graphBed() to see how it works. 
 Imports: reshape2, grDevices,
     rgl,
-    stats
+    stats,
+    tidyr
 Depends: rgl,
     grDevices
-    

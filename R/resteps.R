@@ -5,6 +5,7 @@
 #' @param d The diameter of your hobbed bolt.
 #' @examples 
 #' resteps(82, 30)
+#' @export
  
 resteps <- function(o, d)
 {

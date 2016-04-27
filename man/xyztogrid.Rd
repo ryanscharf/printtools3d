@@ -3,6 +3,9 @@
 \name{xyztogrid}
 \alias{xyztogrid}
 \title{xyztogrid}
+\usage{
+xyztogrid()
+}
 \arguments{
 \item{x}{The X values}
 

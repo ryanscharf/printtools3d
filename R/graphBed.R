@@ -4,9 +4,10 @@
 #' @examples 
 #' graphBed()
 #' @import rgl grDevices
+#' @export
 
-devtools::use_package("rgl", "imports")
-devtools::use_package("grDevices", "imports")
+#devtools::use_package("rgl", "imports")
+#devtools::use_package("grDevices", "imports")
 
 graphBed <- function()
   {

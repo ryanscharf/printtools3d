@@ -6,6 +6,7 @@
 #' @param t The pitch of your lead screw.
 #' @examples 
 #' zsteps(200, 16, .8)
+#' @export
 
 zsteps <- function(s, m, t)
 {
