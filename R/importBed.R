@@ -15,9 +15,9 @@ bed <<- bed[!(is.na(bed$V3) | bed$V3==""), ]
 bed <<- bed[!(is.na(bed$V4) | bed$V4==""), ]
 bed <<- bed[!(is.na(bed$V5) | bed$V5==""), ]
 colnames(bed) <<- c("X", "Y", "Z");
-X <<- tidyr::extract_numeric(bed$X)
-Y <<- tidyr::extract_numeric(bed$Y)
-Z <<- tidyr::extract_numeric(bed$Z)
+X <<- readr::parse_number(bed$X, na = c("", "NA"))
+Y <<- readr::parse_number(bed$Y, na = c("", "NA"))
+Z <<- readr::parse_number(bed$Z)
 bedtable = data.frame(X, Y, Z)
 bed <<- bedtable[complete.cases(bedtable), ]
 }
