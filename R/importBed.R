@@ -18,6 +18,7 @@ colnames(bed) <<- c("X", "Y", "Z");
 X <<- readr::parse_number(bed$X, na = c("", "NA"))
 Y <<- readr::parse_number(bed$Y, na = c("", "NA"))
 Z <<- readr::parse_number(bed$Z)
+  #you can ignore the warnings
 bedtable = data.frame(X, Y, Z)
 bed <<- bedtable[complete.cases(bedtable), ]
 }
